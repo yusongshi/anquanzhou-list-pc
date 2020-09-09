@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Microsoft YaHei UI';
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+body {
+  background: #f1f9ff;
+}
+
+.page-top {
+  width: 100%;
+  height: auto;
+}
+
+.cont {
+  width: 100%;
+  height: auto;
+}
+
+.cont-1 {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  margin-top: -10px;
+}
+
+.cont-1 .cont-top {
+  margin-top: 0;
+}
+
+.cont-top {
+  width: 100%;
+  height: auto;
+  margin: 1.5rem 0;
+}
+
+.cont-1-cont {
+  padding: 0 1rem;
+}
+
+.cont-swiper {
+  width: 100%;
+  height: auto;
+}
+
+.cont-article {
+  width: 100%;
+  padding-top: 2rem;
+}
+
+.cont-2 .more {
+  float: right;
+}
+
+.cont-2-left {
+  float: left;
+  width: 60%;
+  height: 43rem;
+}
+
+.cont-2-right {
+  float: left;
+  width: calc(40% - 4rem);
+  height: 41rem;
+  padding: 1rem 2rem;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-1 .swiper-slide {
+  display: block;
+}
+
+.swiper-1 .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-1 .swiper-pagination {
+  bottom: 0 !important;
+  right: 1rem !important;
+  width: calc(100% - 1rem) !important;
+  text-align: right !important;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.swiper-text {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-text a {
+  display: inline-block;
+  width: calc(100% - 5rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.my-bullet {
+  display: inline-block;
+  width: .5rem;
+  height: .5rem;
+  margin-right: .5rem;
+  background: #fff;
+}
+
+.my-bullet-active {
+  background: #aee3ff;
+}
+
+.article-first {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  border-bottom: 1px dashed #2477e8;
+}
+
+.article-first .article-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.article-first .article-text {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.cont-2-title {
+  display: block;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  width: 100%;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.more {
+  display: block;
+  width: 12.4rem;
+  padding: .2rem 0;
+  line-height: 3rem;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  background: linear-gradient(to right, #00a6d5, #0376e4);
+  border-radius: .5rem;
+}
+
+img.titstyle {
+  display: block;
+  width: 100%;
+}
+
+.ss1 a {
+  color: inherit;
+}
+
+.ss1 .more {
+  display: block;
+  width: 12.4rem;
+  padding: .2rem 0;
+  line-height: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #fff;
+  background: linear-gradient(to right, #00a6d5, #0376e4);
+  border-radius: .5rem;
+}
+
+.ss1 .swiper-container {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 2rem;
+}
+
+.ss1 .swiper-container .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+}
+
+.ss1 .swiper-container .swiper-slide ul {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.ss1 .swiper-container .swiper-slide ul li {
+  position: relative;
+  height: 12rem;
+  list-style: none;
+  margin: 2rem auto;
+}
+
+.ss1 .swiper-container .swiper-slide ul li img.touxiang {
+  position: absolute;
+  display: block;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+
+.ss1 .swiper-container .swiper-slide ul li h1 {
+  padding-left: 12rem;
+  font-size: 1.9rem;
+  font-weight: normal;
+  text-align: left;
+  line-height: 3.5rem;
+  height: 3.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ss1 .swiper-container .swiper-slide ul li h2 {
+  display: flex;
+  align-items: center;
+  height: 6rem;
+  line-height: 1.6;
+  padding-left: 12rem;
+  text-align: left;
+  font-size: 1.7rem;
+  font-weight: normal;
+  background: url(../img/h5-list-2.jpg) right center no-repeat;
+  background-size: contain;
+}
+
+.ss1 .swiper-container .swiper-slide ul li h2 span {
+  display: block;
+  display: -webkit-box;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/*# sourceMappingURL=index.css.map */
