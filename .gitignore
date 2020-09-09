@@ -1,8 +1,0 @@
-*.py[cod]
-*.so
-*.egg
-*.egg-info
-.vscode
-node_modules
-dist
-build
